@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>My Projects</title>
+    <style>
+    html {
+    background: url('../assets/images/Background5.png') no-repeat center center fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: visible;
+    color: white;
+    }
+    body{
+    margin-top: 3vh;
+    color: white;
+    }
+    #name{
+    color: antiquewhite;
+    font-family: 'Merriweather', serif;
+    font-size: 2vw;
+    margin-top: 0px;
+    }
+    .nav-div{
+    padding-top: 3vh;
+    }
+    .nav-bar{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5.5vw;
+    }
+    .nav-bar-list{
+    display: grid;
+    grid-template-columns: 9vw 9vw 9vw 11vw 12vw;
+    margin-left: 5vw;
+    margin-top: 0px;
+    padding-left: 5vw;
+    }
+    .nav-list{
+    font-family: 'Poppins', sans-serif;
+    color: antiquewhite;
+    font-weight: bold;
+    display: flex;
+    list-style-type: none;
+    }
+    .nav{
+    font-size: 1.70vw;
+    color: antiquewhite;
+    text-decoration: none;
+    }
+    .nav:hover{
+    color: aliceblue;
+    }
+    footer{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    width: 98vw;
+    font-size: 2vw;
+    }
+    .image{
+    width: 60vw;
+    border: 2px solid antiquewhite;
+    }
+    #container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3vw;
+    }
+    .heading{
+    font-family: 'Merriweather', serif;
+    color: antiquewhite;
+    font-size: 2.5vw;
+    margin-left: 5.25vw;
+    }
+    .title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+    margin-bottom: 1vh;
+    }
+    #first{
+    margin-top: 1%;
+    }
+    .project{
+    margin-top: 3vh;
+    }
+    .prj{
+    margin-top: 0%;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-div">
+            <nav class="nav-bar">
+                <h2 id="name">Jethro Roland Danocup</h2>
+                <ul class="nav-bar-list">
+                    <li class="nav-list"><a class="nav" href="../index.html">HOME</a></li>
+                    <li class="nav-list"><a class="nav" href="./resume.html">RESUME</a></li>
+                    <li class="nav-list"><a class="nav" href = ./about.html>ABOUT</a></li>
+                    <li class="nav-list"><a class="nav" href = ./contact.html>CONTACT</a></li>
+                    <li class="nav-list"><a class="nav" href = ./my-projects.html>MY PROJECTS</a></li>
+                </ul>
+            </nav>
+            </div>
+    </header>
+
+    <section>
+    <h2 class="heading">My Projects</h2>
+        <div id="container">
+        <div class="project prj">
+            <h3 class="title">Personal Website (HTML Only)</h3>
+            <div id="first" class="img"><a class="proj-link" href = ../projects/1/index.html><img class = "image" src = ../assets/images/Project-1.png alt="Capstone Project 1 - Pure HTML Website"></a></div>
+        </div>
+        <div class="project">
+            <h3 class="title">Personal Website (HTML and CSS [Unresponsive])</h3>
+            <div class="img"><a class="proj-link" href = ../projects/2/index.html><img class = "image" src = ../assets/images/Project-2.png alt="Capstone Project 2 - HTML with CSS but Unresponsive"></a></div>
+        </div>
+        <div class="project">
+            <h3 class="title">Personal Website (HTML and Responsive CSS)</h3>
+            <div class="img"><a class="proj-link" href = ../index.html><img class = "image" src = ../assets/images/Project-3.png alt="Capstone Project 3 - HTML with Responsive CSS"></a></div>
+        </div>
+        </div>
+    </section><br>
+
+    <footer>Copyright January 2024</footer><br>
+</body>
+</html>

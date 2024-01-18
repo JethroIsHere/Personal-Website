@@ -1,0 +1,85 @@
+html {
+    background: url('./assets/images/Background.png') no-repeat center center fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body{
+    margin-top: 3vh;
+}
+
+#name{
+    color: antiquewhite;
+    font-family: 'Merriweather', serif;
+    font-size: 2vw;
+    margin-top: 0px;
+}
+
+.nav-div{
+    padding-top: 3vh;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5.5vw;
+}
+
+.nav-bar-list{
+    display: grid;
+    grid-template-columns: 9vw 9vw 9vw 11vw 12vw;
+    margin-left: 5vw;
+    margin-top: 0px;
+    padding-left: 5vw;
+}
+
+.nav-list{
+    font-family: 'Poppins', sans-serif;
+    color: antiquewhite;
+    font-weight: bold;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav{
+    font-size: 1.70vw;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.nav:hover{
+    color: aliceblue;
+}
+
+#Headline{
+    font-size: 8vw;
+    color: antiquewhite;
+    font-family: 'Merriweather', serif;
+    margin-top: 6vh;
+    margin-bottom: 0%;
+}
+
+#sub-heading{
+    font-size: 3vw;
+    font-family: 'Poppins', sans-serif;
+    color: antiquewhite;
+    margin-top: 0%;
+}
+
+.outside{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    width: 100vw;
+}
+
+.inside{
+    display: block;
+    text-align: center;
+}
+
+
+
